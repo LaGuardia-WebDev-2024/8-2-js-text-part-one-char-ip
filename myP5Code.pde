@@ -11,10 +11,22 @@ draw = function(){
   background(255,255,255);
   
   if(mousePressed){
+    text("yum", random (0,400), random (0,400));
     showXYPositions();
   }
 
   //🎯New Text Code Should Go Here 🡻
+
+  fill (0,0,0,);
+  textSize(40);
+  text("My Favorite Foods",130,100);
+
+  textSize(20);
+  text("Lemons",250,200);
+  text("soy sauce",300,300);
+  text("brergr",200,360);
+
+
 
 };
 
